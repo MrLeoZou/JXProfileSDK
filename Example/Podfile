@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JXProfileSDK_Example' do
+  pod 'JXProfileSDK', :path => '../'
+
+  target 'JXProfileSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
