@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JXProfileSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JXProfileSDK' => ['JXProfileSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'JXProfileSDK' => ['JXProfileSDK/Assets/**/*.xcassets']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/JXProfileSDK.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

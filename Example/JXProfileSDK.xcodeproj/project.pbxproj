@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A52DA29D92C4548CB658594 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A52DA29D92C4548CB658594 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1F09981A92A9B8C8DF0D838F /* Pods_JXProfileSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXProfileSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B872D0C99452AF8F94F214 /* Pods_JXProfileSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXProfileSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31737E0092DDCA1521042A02 /* JXProfileSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JXProfileSDK.podspec; path = ../JXProfileSDK.podspec; sourceTree = "<group>"; };
+		31737E0092DDCA1521042A02 /* JXProfileSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JXProfileSDK.podspec; path = ../JXProfileSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44DAD134D2FCD384A4F999DF /* Pods-JXProfileSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProfileSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-JXProfileSDK_Example/Pods-JXProfileSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		569034607AA6EEF2266028E4 /* Pods-JXProfileSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProfileSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JXProfileSDK_Tests/Pods-JXProfileSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JXProfileSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXProfileSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD6E7D9C39A8857368AA1EE /* Pods-JXProfileSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXProfileSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-JXProfileSDK_Example/Pods-JXProfileSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F95A169CC1CD6E7D0A3B0D65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F95A169CC1CD6E7D0A3B0D65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				569034607AA6EEF2266028E4 /* Pods-JXProfileSDK_Tests.debug.xcconfig */,
 				69117E808272455D8A629255 /* Pods-JXProfileSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

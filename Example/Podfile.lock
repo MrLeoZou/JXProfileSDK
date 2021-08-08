@@ -1,0 +1,16 @@
+PODS:
+  - JXProfileSDK (0.1.0)
+
+DEPENDENCIES:
+  - JXProfileSDK (from `../`)
+
+EXTERNAL SOURCES:
+  JXProfileSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXProfileSDK: 04cd1a7644acebf8d13fcee5f1c40838c21b7caf
+
+PODFILE CHECKSUM: ac8dde75c100f143ae691e1a2eb8fd42b1e22f74
+
+COCOAPODS: 1.10.1

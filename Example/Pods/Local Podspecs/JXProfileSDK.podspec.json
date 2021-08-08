@@ -1,0 +1,28 @@
+{
+  "name": "JXProfileSDK",
+  "version": "0.1.0",
+  "summary": "A short description of JXProfileSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/roczpzou/JXProfileSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "roczpzou": "roczpzou@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/roczpzou/JXProfileSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JXProfileSDK/Classes/**/*",
+  "resource_bundles": {
+    "JXProfileSDK": [
+      "JXProfileSDK/Assets/**/*.xcassets"
+    ]
+  },
+  "public_header_files": "Pod/Classes/JXProfileSDK.h"
+}
