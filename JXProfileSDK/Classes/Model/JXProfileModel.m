@@ -9,4 +9,12 @@
 
 @implementation JXProfileModel
 
+- (NSString *)name {
+    return _name;
+}
+
+- (NSString *)avatar {
+    return _avatar;
+}
+
 @end

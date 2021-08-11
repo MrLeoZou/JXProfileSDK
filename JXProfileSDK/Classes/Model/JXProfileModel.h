@@ -6,10 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JXProfileService.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JXProfileModel : NSObject
+@interface JXProfileModel : NSObject <JXProfileInfoProtocol>
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *avatar;
 
 @end
 

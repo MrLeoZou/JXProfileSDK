@@ -346,11 +346,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JXProfileSDK_Example/Pods-JXProfileSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JXBifrost/JXBifrost.framework",
 				"${BUILT_PRODUCTS_DIR}/JXProfileSDK/JXProfileSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/JXUserDataSDK/JXUserDataSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXBifrost.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXProfileSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXUserDataSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

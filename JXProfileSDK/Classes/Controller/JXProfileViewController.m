@@ -6,26 +6,36 @@
 //
 
 #import "JXProfileViewController.h"
+#import <JXBifrost/BifrostHeader.h>
+#import "JXProfileService.h"
+#import <JXUserDataSDK/JXUserDataSDK.h>
 
 @interface JXProfileViewController ()
+
+@property (nonatomic, strong) NSDictionary *parameters;
 
 @end
 
 @implementation JXProfileViewController
 
++ (void)load {
+    [Bifrost bindURL:kRouteProfilePage
+           toHandler:^id _Nullable(NSDictionary * _Nullable parameters) {
+        JXProfileViewController *vc = [[JXProfileViewController alloc] init];
+        vc.parameters = parameters;
+        return vc;
+    }];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"Profile";
+    self.view.backgroundColor = UIColor.grayColor;
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"从JXUserData获取信息" message:[NSString stringWithFormat:@"userID:%@\nuserName:%@",[[JXUserDataManager sharedInstance] loginInfo].userID,[[JXUserDataManager sharedInstance] loginInfo].userName] preferredStyle:UIAlertControllerStyleAlert];
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+    [self presentViewController:alertVC animated:YES completion:nil];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

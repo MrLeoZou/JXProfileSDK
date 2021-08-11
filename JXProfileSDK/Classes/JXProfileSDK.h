@@ -8,5 +8,6 @@
 #ifndef JXProfileSDK_h
 #define JXProfileSDK_h
 
+#import "JXProfileService.h"
 
 #endif /* JXProfileSDK_h */

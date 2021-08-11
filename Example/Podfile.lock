@@ -1,16 +1,27 @@
 PODS:
-  - JXProfileSDK (0.1.0)
+  - JXBifrost (0.1.0)
+  - JXProfileSDK (0.1.1):
+    - JXBifrost
+    - JXUserDataSDK
+  - JXUserDataSDK (0.1.2)
 
 DEPENDENCIES:
   - JXProfileSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/MrLeoZou/componentizationDemo:
+    - JXBifrost
+    - JXUserDataSDK
 
 EXTERNAL SOURCES:
   JXProfileSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JXProfileSDK: 04cd1a7644acebf8d13fcee5f1c40838c21b7caf
+  JXBifrost: 14d3e4068d974ecdfda78881d0027735b46e7b3e
+  JXProfileSDK: 253bb1282b53d557de7c6f471c42f349eb0a3c76
+  JXUserDataSDK: d5d5c22d47fa6918cf7a8931427203dfee5e501b
 
-PODFILE CHECKSUM: ac8dde75c100f143ae691e1a2eb8fd42b1e22f74
+PODFILE CHECKSUM: a6d1ea3f4abe99c42a3500735a51dfa483c8e846
 
 COCOAPODS: 1.10.1

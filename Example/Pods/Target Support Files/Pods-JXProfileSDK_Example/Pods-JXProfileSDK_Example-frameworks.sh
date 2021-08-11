@@ -175,10 +175,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JXBifrost/JXBifrost.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JXProfileSDK/JXProfileSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JXUserDataSDK/JXUserDataSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/JXBifrost/JXBifrost.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JXProfileSDK/JXProfileSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JXUserDataSDK/JXUserDataSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
